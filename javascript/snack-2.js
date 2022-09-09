@@ -8,12 +8,10 @@ console.log("snack-2")
 
 function splitArray(array, min, max) {
     let newArray = []
-    let temp = 0;
     if (min > max) {
-        temp = min;
-        min = max
-        max = temp;
+        [[min, max] = [max,min]]
     }
+    console.log(min, max);
 
     array.forEach((element, index) => {
         if (index >= min && index <= max) {

@@ -63,11 +63,10 @@ zucchine.forEach((key, index) => {
         corte.push(key);
         pesoCorte+= key.peso;}
 })
-
+// Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 console.log("Peso corte: "+ pesoCorte,"Peso lunghe: "+ pesoLunghe)
 
 
 
 
 
-// Infine stampa separatamente quanto pesano i due gruppi di zucchine.
